@@ -1,3 +1,11 @@
+#Code imported from Colab used in a third year project working with a small team, supervised by a representative from Airbus Intelligence
+#The project involved creating a neural net segmentation tool to identify icebergs in satellite images (a task that sounds easy until you remember that land covered in snow looks an awful lot like an iceberg)
+#We had limited memory to work with, so part of my job was to create code to deal with processing these large satellite images as smaller uniform patches
+#One section of code preprocesses the training data, chopping up the big images and their respective segmentation masks, and storing them in an orderly manner for our training code to access
+#The other section was for implementation into the final product
+#It takes a new inputted image, chops it up into manageable chunks, feeds it through a placeholder function (in place of the segmentation model), and recombines the new masks, before displaying the recombined original image and masks, showing a side-by-side of the original image and the large mask prediction
+
+
 # -*- coding: utf-8 -*-
 """PatchingCode.ipynb
 
