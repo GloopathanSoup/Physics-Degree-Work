@@ -1,5 +1,8 @@
 #GAS SIMULATION WITH MAXWELL-BOLTZMANN STATISTICS
 
+#A simple 2D simulation of colliding circles demonstrating how the Maxwell-Boltzmann distribution of velocities in gasses arises naturally from particle collisions
+#After the simulation is complete, a graph is outputted, displaying the experimental distribution of velocities at the end of the sim, comparing them to the theoretical distribution in an ideal gas
+
 import numpy as np
 from ipycanvas import Canvas, hold_canvas
 from time import sleep
