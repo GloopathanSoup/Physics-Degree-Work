@@ -1,5 +1,7 @@
 #ATMOSPHERIC ALTITUDE SIM
 
+#A simple simulation of colliding circles under a constant downward acceleration, demonstrating the logarithmic distribution of particles in an atmosphere through plots of the final particle distribution
+
 import numpy as np
 from ipycanvas import Canvas, hold_canvas
 from time import sleep
