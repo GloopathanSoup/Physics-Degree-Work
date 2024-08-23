@@ -1,4 +1,5 @@
 #GRAVITY SIM
+#A simple 2D sim of many bodies acting upon each other through gravity
 
 import numpy as np
 from ipycanvas import Canvas, hold_canvas
