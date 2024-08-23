@@ -1,5 +1,8 @@
 #COMPRESSIONAL WAVE SIM
 
+#A simple sim of colliding 2D circles with the introduction of a physical perturbation, demonstrating the behaviour of compressional waves (like sound) in fluids
+#Once the simulation is complete, a graph is outputted, tracking the populations at the left and right sides of the box, which can be used to demonstrate the speed of 'sound' in the box
+
 import numpy as np
 from ipycanvas import Canvas, hold_canvas
 from time import sleep
